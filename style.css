@@ -137,3 +137,20 @@ align-items: center;
     transform: scale(0.6);
     filter: invert(1);
 }
+
+
+/* -------------------MOBILE----------------- */
+
+@media(min-width :300px ) and (max-width:500px){
+    header{
+        position: absolute;
+        /* border: 2px solid red; */
+        top: 0%;
+        width: 95%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+}
